@@ -4,6 +4,8 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{xcolor}
+\definecolor{Bvlt}{RGB}{78,51,255} 
 %Marges et taille des colonnes de dates
 \usepackage[left=2cm,right=2cm,top=1.1cm,bottom=1.1cm]{geometry}
 
@@ -30,13 +32,20 @@
 % Marge négative entre le titre et la partie expérience, pour gagner de la place
 \vspace*{-3\baselineskip}
 \section{Expériences professionnelles}
-\cventry{2019-mai 2020}{Ingénieur d'étude}{Laboratoire COSMER}{Université de Toulon}{}{Réalisation d'expérimentations dans le cadre du projet H2020 EU Marine Robots}
-\cventry{2017-2019}{Chargé d'enseignement}{Seatech et IUT}{Université de Toulon}{}{Enseignement de la mécanique vibratoire TD/TP (104h) et de l'automatique TP (24h)}
-\cventry{2016}{Ingénieur R \& D}{Altran}{Aix-en-Provence}{}{Conception robotique : Projet Méthode et Analyse du Démantèlement Nucléaire (6 mois)}
-\cventry{2015-2016}{Ingénieur R \& D}{Mayfran International}{Landgraaf}{Pays-Bas}{Développement produit / convoyeur et système de filtration (6 mois)}
-\cventry{2015}{Stage de recherche}{Universidade Federal Uberlândia}{}{Brésil}{Fabrication d’échangeur de chaleur par méthode de fabrication additive (6 mois)}
+\cventry{2019-mai 2020}{Ingénieur d'étude}{Laboratoire COSMER}{Université de Toulon}{}{Réalisation d'expérimentations dans le cadre du projet H2020 EU Marine Robots
+\newline \textcolor{Bvlt}{ROS, programmation véhicule, Python, analyse des données, hydrodynamique}}
+\cventry{2017-2019}{Chargé d'enseignement}{Seatech et IUT}{Université de Toulon}{}{Enseignement de la mécanique vibratoire TD/TP (104h) et de l'automatique TP (24h)
+\newline \textcolor{Bvlt}{Pédagogie, Préparation des cours, Corrections, Mécanique des solides (déformable), contrôleur, PID}}
+\cventry{2016}{Ingénieur R \& D}{Altran}{Aix-en-Provence}{}{Conception robotique : Projet Méthode et Analyse du Démantèlement Nucléaire (6 mois)
+\newline \textcolor{Bvlt}{bras robotisé, conception, CAO, dimensionnement, Python, optimisation}}
+\cventry{2015-2016}{Ingénieur R \& D}{Mayfran International}{Landgraaf}{Pays-Bas}{Développement produit / convoyeur et système de filtration (6 mois)
+\newline \textcolor{Bvlt}{rétro-ingénierie, conception, CAO, écoulement, traduction technique}}
+\cventry{2015}{Stage de recherche}{Universidade Federal Uberlândia}{}{Brésil}{Fabrication d'échangeur de chaleur par méthode de fabrication additive (6 mois) \newline
+\textcolor{Bvlt}{Matlab, traitement de données, transfert thermique, Fluent, bras robotisé}}
 \section{Formation}
-\cventry{2016-2020}{Doctorat}{Université de Toulon}{Laboratoire COSMER}{}{Identification de paramètres hydrodynamiques par simulation avec Smoothed Particle Hydrodynamics. Membre élu au conseil du laboratoire COSMER, de l'école doctorale 548 et du pôle INP de l'université de Toulon}
+\cventry{2016-2020}{Doctorat}{Université de Toulon}{Laboratoire COSMER}{}{Identification de paramètres hydrodynamiques par simulation avec Smoothed Particle Hydrodynamics.
+\newline Membre élu au conseil du laboratoire COSMER, de l'école doctorale 548 et du pôle INP de l'université de Toulon
+\newline \textcolor{Bvlt}{Simulation numérique, Écoulement (incompressible), Hydrodynamique, Dynamique des solides, Analyse numérique, Publications scientifiques, Paramètres hydrodynamiques, Interaction fluide-solide}}
 \cventry{2012-2016}{Diplôme d'ingénieur}{Sigma Clermont - ex IFMA}{Clermont-Ferrand}{}{Spécialisation Machines Mécanismes et systèmes}
 %
 \section{Langues}
@@ -57,8 +66,13 @@ CAO           & \begin{tabular}[c]{@{}l@{}}Catia v5, Inventor, Solidworks,\\ Fre
 \end{tabular}
 \nocite{*}
 %
-\bibliographystyle{abbrv}
-\bibliography{publications}                       % 'publications' is the name of a BibTeX file
+
 \section{Centres d'intérêts}
 Vulgarisation scientifique, Jeux de société, Jeux de stratégie (échecs, jeux vidéo)
+
+\clearpage
+
+\bibliographystyle{abbrv}
+\bibliography{publications}                       % 'publications' is the name of a BibTeX file
+
 \end{document}
