@@ -1,0 +1,22 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[french]{babel}\addto{\captionsfrench}{\renewcommand{\refname}{Bibliographie}}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\definecolor{Bvlt}{RGB}{78,51,255} 
+%Marges et taille des colonnes de dates
+\usepackage[left=2cm,right=2cm,top=1.1cm,bottom=1.1cm]{geometry}
+
+\author{Nicolas Gartner}
+\title{Liste de publications}
+\date{ }
+
+\begin{document}
+\maketitle
+\nocite{*}
+\bibliographystyle{abbrv}
+\bibliography{publications}                       % 'publications' is the name of a BibTeX file
+
+\end{document}
